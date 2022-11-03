@@ -1,0 +1,24 @@
+{
+    "city": [
+        {
+            "name": "Stockholm",
+            "lat": 59.329,
+            "long": 18.068
+        },
+        {
+            "name": "Tokyo",
+            "lat": 35.689,
+            "long": 139.69
+        },
+        {
+            "name": "New York",
+            "lat": 40.741,
+            "long": -73.989
+        },
+        {
+            "name": "Istanbul",
+            "lat": 41.0351,
+            "long": 28.9833
+        }
+    ]
+}

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: #2c3e50;
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+.container {
+    height: 100%;
+
+    display: flex;
+    gap: 1rem;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.city-input {
+    text-align: center;
+    border-radius: .3rem;
+
+    width: 10rem;
+    height: 3rem;
+
+    color: white;
+    background: #353738;
+    border: 1px solid #ecf0f1;
+}
+
+.city-input:focus {
+    outline-width: 0;
+}
+
+.input-and-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+p {
+    color: white;
+    opacity: .6;
+    font-family: "Roboto";
+
+    font-size: .8rem;
+
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.card {
+    box-sizing: border-box;
+    padding: 2rem 1rem;
+
+    font-family: "Roboto";
+
+    max-width: 15rem;
+    aspect-ratio: 5 / 7;
+
+    border-radius: 1rem;
+    background: #ecf0f1;
+
+
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+
+    box-shadow: 0 0 20px black;
+
+
+    justify-content: space-between;
+}
+
+.city-name,
+.weather-description {
+    color: #5c6364;
+}
+
+.city-name {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.temp-in-c {
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+.card-image {
+    max-width: 80%;
+    filter: drop-shadow(0 0 0.3rem black);
+}
+
+.weather-description {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
