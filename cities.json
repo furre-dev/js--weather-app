@@ -19,6 +19,11 @@
             "name": "Istanbul",
             "lat": 41.0351,
             "long": 28.9833
+        },
+        {
+            "name": "Sydney",
+            "lat": -33.865,
+            "long": 151.209
         }
     ]
 }
