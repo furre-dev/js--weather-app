@@ -75,12 +75,12 @@ p {
 
     font-family: "Roboto";
 
-    max-width: 15rem;
-    aspect-ratio: 5 / 7;
+    width: 18rem;
 
     border-radius: 1rem;
     background: #ecf0f1;
 
+    height: 27rem;
 
     display: flex;
     flex-direction: column;
